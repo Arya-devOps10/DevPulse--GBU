@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="dev_pulse.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+        rel="stylesheet">
+
+    <title>DevPulse GBU | Your Unified Developer Identity</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="Logo.jpeg" alt="DevPulse Logo">
+                <a href="index.html">Dev<span>Pulse</span></a>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="unifiedStats.html">Unified Stats</a></li>
+                <li><a href="#projects">Showcase</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="login.html" class="btn-login">Login</a>
+                <a href="connect.html" class="btn-signup">Connect</a>
+                
+                <div class="mode-toggle" id="dark-mode-btn">
+                    <i class="fa-solid fa-moon"></i>
+                </div>
+            </div>
+
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        Sync Your <br> <span>Developer Pulse</span>
+                    </h1>
+                    <p class="hero-description">
+                        Connect your GitHub and LeetCode to build a unified identity.
+                        Track your streaks, contributions, and projects in one powerful dashboard.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="signup.html" class="btn-main">Get Started</a>
+                        <a href="#demo" class="btn-outline">
+                            <i class="fa-solid fa-play"></i> View Demo
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="glass-card">
+                        <div class="card-header">
+                            <div class="dot red"></div>
+                            <div class="dot yellow"></div>
+                            <div class="dot green"></div>
+                        </div>
+                        
+                        <div class="card-body">
+                            <div class="skeleton-chart">
+                                <div class="bar" style="height: 60%;"></div>
+                                <div class="bar" style="height: 80%;"></div>
+                                <div class="bar" style="height: 40%;"></div>
+                                <div class="bar" style="height: 90%;"></div>
+                                <div class="bar" style="height: 50%;"></div>
+                            </div>
+                            <p style="margin-top: 15px; font-family: 'Gill Sans', sans-serif; font-size: 0.9rem; color: #94a3b8;">
+                                <i class="fa-solid fa-rotate"></i> Real-time Stats Syncing...
+                            </p>
+                        </div>
+                    </div>
+                    <div class="hero-glow"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="dev_pulse.js"></script>
+</body>
+
+</html>
